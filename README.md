@@ -2,6 +2,15 @@
 DJI *.LRF file is Low Resolution File, just compressed version of original recording. 
 This file is not useless, it could be used as proxy file for video editing.
 
+# What does script do?
+
+This script basically renames all *.LRF files into *_proxy.mp4 files
+e.g.
+
+> DJI_0001.LRF ==> DJI_0001_proxy.mp4 
+
+Script renames all files in current folder(where the script is), and recursively in all subfolders.
+
 # Usage
 
 pyhton interpreter:
